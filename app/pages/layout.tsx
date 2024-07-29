@@ -5,7 +5,7 @@ export default function PagesLayout({
 }) {
   return (
     <div>
-      <main className="flex max-h-screen flex-col items-center justify-between w-full bg-cyan-600">
+      <main className="flex max-h-screen flex-col items-center justify-between w-full bg-white">
         {children}
       </main>
     </div>

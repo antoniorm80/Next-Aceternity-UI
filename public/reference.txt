@@ -1,0 +1,19 @@
+*****  Aceternity UI *****
+URL:     https://ui.aceternity.com/
+Yotube:  https://www.youtube.com/watch?v=bcOYWA6-B3g&list=PLb3Vtl4F8GHRHQitFfss7iYDP0_U1RNMp&index=22
+Channel: https://www.youtube.com/@orcdev/playlists
+Fecha Inicial: Jul 27, 2024
+Fecha Actualizado:  Jul 28, 2024
+
+Agregando Componentes:
+    Cambiar:   "@/components/ui/";
+    Agregar:    default 
+
+Tasks:
+1.- Integrarlo con Git. -> Done 
+2.- Agregar a un repositorio en GitHub. -> Done
+3.- Documentar los pasos en el archivo "Next.docx". -> Done
+4.- Terminar de agregar los demás Componentes. -> Progreso
+5.- Integrarlo con los Templates de Material Tailwind. -> Done
+    "C:\Proyectos\Material Tailwind\Templates\NEXT\nextjs-tailwind-event-landing-page-main"
+6.- Publicarlo en Vercel o SiteGround. -> Pendiente
