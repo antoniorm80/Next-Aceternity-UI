@@ -1,19 +1,39 @@
 *****  Aceternity UI *****
+Folder:  C:\Proyectos\NextJs\AceternityUI\aceternityui
 URL:     https://ui.aceternity.com/
 Yotube:  https://www.youtube.com/watch?v=bcOYWA6-B3g&list=PLb3Vtl4F8GHRHQitFfss7iYDP0_U1RNMp&index=22
 Channel: https://www.youtube.com/@orcdev/playlists
 Fecha Inicial: Jul 27, 2024
 Fecha Actualizado:  Jul 28, 2024
 
-Agregando Componentes:
+Ejecutar en el Browser: 
+    Nota; debo poner "pages" y luego todo lo demás 
+        http://localhost:3000/pages/animated-tooltip
+
+Agregando Componentes CLI:
+    1.- Run the following command npm:   npx shadcn@latest add https://ui.aceternity.com/registry/background-lines.json
+    2.- Agregar la "page.tsx" dentro de una carpeta (genera manual) con el nombre del componente.
+    3.- Copiar el código del botón "Code" en formato Typescript.
+    4.- Agregar la palabra "default" a lo que copuamos del botón "Code".
+
+Agregando Componentes Manual:
     Cambiar:   "@/components/ui/";
     Agregar:    default 
+
+Stack:
+    Next.js - React - TailwindCSS- Framer Motion
+
+Dependecies:
+npm i next-themes
 
 Tasks:
 1.- Integrarlo con Git. -> Done 
 2.- Agregar a un repositorio en GitHub. -> Done
 3.- Documentar los pasos en el archivo "Next.docx". -> Done
-4.- Terminar de agregar los demás Componentes. -> Progreso
+4.- Terminar de agregar los demás Componentes. -> 
+     4.1.- Generar el componente - ui 
+     4.2.- Crear la Page y referenciar el componente.
+     4.3.- Visualizarlo "http://localhost:3000/pages/animated-tooltip"     
 5.- Integrarlo con los Templates de Material Tailwind. -> Done
     "C:\Proyectos\Material Tailwind\Templates\NEXT\nextjs-tailwind-event-landing-page-main"
 6.- Publicarlo en Vercel o SiteGround. -> Pendiente

@@ -38,7 +38,7 @@ const CARDS = [
   {
     id: 0,
     name: "María Garza",
-    designation: "Senior Software Engineer",
+    designation: "Marketing Digital",
     content: (
       <p>
         These cards are amazing, <Highlight>I want to use them</Highlight> in my
@@ -49,7 +49,7 @@ const CARDS = [
   {
     id: 1,
     name: "Armando Madrigal",
-    designation: "Senior Shitposter",
+    designation: "Señor SAP Business One",
     content: (
       <p>
         I dont like this Twitter thing,{" "}
@@ -62,7 +62,7 @@ const CARDS = [
   {
     id: 2,
     name: "Israel González",
-    designation: "Manager Project Mayhem",
+    designation: "Manager Support Customers",
     content: (
       <p>
         The first rule of
@@ -70,6 +70,18 @@ const CARDS = [
         club. The second rule of
         <Highlight>Fight club</Highlight> is that you DO NOT TALK about fight
         club.
+      </p>
+    ),
+  },
+  {
+    id: 3,
+    name: "Antonio Rivera",
+    designation: "Señor Fullstack developer",
+    content: (
+      <p>
+        Lorem ipsum dolor sit amet <Highlight>adipisicing</Highlight>  elit. 
+        amet laboriosam impedit, laborum ex. Dolor <Highlight>voluptatibus</Highlight> eaque.
+        Animi, cumque debitis beatae voluptate repellendus expedita dignissimos odio saepe.        
       </p>
     ),
   },
